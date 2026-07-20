@@ -1,0 +1,32 @@
+{
+  "effect.astralpotion.spectre": "Spectre",
+  "effect.astralpotion.spectre.desc": "Can pass through solid blocks",
+  "effect.astralpotion.animus": "Animus",
+  "effect.astralpotion.animus.desc": "Can pass through all blocks and gain flight ability",
+
+  "item.minecraft.potion.effect.spectre": "Potion of Spectre",
+  "item.minecraft.potion.effect.long_spectre": "Potion of Spectre",
+  "item.minecraft.splash_potion.effect.spectre": "Splash Potion of Spectre",
+  "item.minecraft.splash_potion.effect.long_spectre": "Splash Potion of Spectre",
+  "item.minecraft.lingering_potion.effect.spectre": "Lingering Potion of Spectre",
+  "item.minecraft.lingering_potion.effect.long_spectre": "Lingering Potion of Spectre",
+  "item.minecraft.tipped_arrow.effect.spectre": "Arrow of Spectre",
+  "item.minecraft.tipped_arrow.effect.long_spectre": "Arrow of Spectre",
+
+  "item.minecraft.potion.effect.animus": "Potion of Animus",
+  "item.minecraft.potion.effect.long_animus": "Potion of Animus",
+  "item.minecraft.splash_potion.effect.animus": "Splash Potion of Animus",
+  "item.minecraft.splash_potion.effect.long_animus": "Splash Potion of Animus",
+  "item.minecraft.lingering_potion.effect.animus": "Lingering Potion of Animus",
+  "item.minecraft.lingering_potion.effect.long_animus": "Lingering Potion of Animus",
+  "item.minecraft.tipped_arrow.effect.animus": "Arrow of Animus",
+  "item.minecraft.tipped_arrow.effect.long_animus": "Arrow of Animus",
+
+  "item.astralpotion.soul_shard": "Soul Shard",
+
+  "astralpotion.configuration.client": "Astral Potion Client Config",
+  "astralpotion.configuration.astralVisionMode": "Vision Mode",
+  "astralpotion.configuration.astralVisionMode.tooltip": "Astral vision mode for spectre/animus effects\nVANILLA - Vanilla black screen effect\nSPECTATOR - Spectator-style full transparency\nFADE - Semi-transparent fade",
+  "astralpotion.configuration.section.client": "Client",
+  "astralpotion.configuration.section.client.tooltip": "Client visual settings"
+}

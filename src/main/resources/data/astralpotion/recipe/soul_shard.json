@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "EPE",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "id": "astralpotion:soul_shard",
+    "count": 1
+  }
+}

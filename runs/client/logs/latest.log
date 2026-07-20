@@ -1,0 +1,64 @@
+[207月2026 08:56:30.622] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientdev, --version, 21.1.235, --assetIndex, asset-index, --assetsDir, C:\Users\my491\.gradle\caches\minecraft\assets, --gameDir, ., --fml.fmlVersion, 4.0.42, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.235, --fml.neoFormVersion, 20240808.144430]
+[207月2026 08:56:30.624] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.6+8-LTS-188
+[207月2026 08:56:30.625] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.6 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[207月2026 08:56:30.715] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[207月2026 08:56:30.833] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[207月2026 08:56:31.125] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[207月2026 08:56:31.218] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/my491/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%23142!/ Service=ModLauncher Env=CLIENT
+[207月2026 08:56:31.327] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.235.jar" [locator: neoforge devenv provider ([E:\mc-bc\AAAA\Astral-Potion-neoforge-1.21.1\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.235\neoforge-21.1.235.jar])]
+[207月2026 08:56:31.344] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.235.jar" [locator: neoforge devenv provider ([E:\mc-bc\AAAA\Astral-Potion-neoforge-1.21.1\.gradle\repositories\ng_dummy_ng\net\neoforged\neoforge\21.1.235\neoforge-21.1.235.jar])]
+[207月2026 08:56:31.352] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "main" [locator: userdev mods and services, reader: mod manifest]
+[207月2026 08:56:31.360] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.235.jar" [locator: userdev mods and services, reader: mod manifest]
+[207月2026 08:56:31.396] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4060 Laptop GPU/PCIe/SSE2 GL version 4.6.0 NVIDIA 596.36, NVIDIA Corporation
+[207月2026 08:56:31.399] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.5.3.jar" [locator: userdev mods and services, reader: mod manifest]
+[207月2026 08:56:31.514] [main/WARN] [net.neoforged.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: library:mixinextras.neoforge. Using Mod File: C:\Users\my491\.gradle\caches\modules-2\files-2.1\io.github.llamalad7\mixinextras-neoforge\0.5.3\a0919957808de97707c5fb4ce073e66aeef3e187\mixinextras-neoforge-0.5.3.jar
+[207月2026 08:56:31.514] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[207月2026 08:56:31.515] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.235.jar" [parent: neoforge-21.1.235.jar, locator: jarinjar, reader: mod manifest]
+[207月2026 08:56:31.515] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Astral Potion 1.0.0 (astralpotion)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.235 (neoforge)
+[207月2026 08:56:31.966] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[207月2026 08:56:31.970] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientdev' with arguments [--version, 21.1.235, --gameDir, ., --assetsDir, C:\Users\my491\.gradle\caches\minecraft\assets, --assetIndex, asset-index]
+[207月2026 08:56:32.021] [main/WARN] [mixin/]: Reference map 'astralpotion.refmap.json' for astralpotion.mixins.json could not be read. If this is a development environment you can ignore this message
+[207月2026 08:56:33.365] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 229 Datafixer optimizations took 157 milliseconds
+[207月2026 08:56:33.697] [pool-7-thread-1/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[207月2026 08:56:37.165] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[207月2026 08:56:37.166] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[207月2026 08:56:37.168] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[207月2026 08:56:37.168] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[207月2026 08:56:37.169] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[207月2026 08:56:37.255] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/mc-bc/AAAA/Astral-Potion-neoforge-1.21.1/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.235/neoforge-21.1.235.jar%23195!/assets/.mcassetsroot' uses unexpected schema
+[207月2026 08:56:37.255] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/mc-bc/AAAA/Astral-Potion-neoforge-1.21.1/.gradle/repositories/ng_dummy_ng/net/neoforged/neoforge/21.1.235/neoforge-21.1.235.jar%23195!/data/.mcassetsroot' uses unexpected schema
+[207月2026 08:56:37.285] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[207月2026 08:56:37.291] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[207月2026 08:56:37.353] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
+[207月2026 08:56:37.505] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.235, for MC 1.21.1
+[207月2026 08:56:38.097] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
+[207月2026 08:56:38.185] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/neoforge, mod/astralpotion
+[207月2026 08:56:38.288] [Worker-Main-23/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
+[207月2026 08:56:38.289] [Worker-Main-9/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_jp_patch-15.1.05.hex, loading
+[207月2026 08:56:39.269] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[207月2026 08:56:39.269] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[207月2026 08:56:39.387] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on 扬声器 (Realtek(R) Audio)
+[207月2026 08:56:39.388] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[207月2026 08:56:39.469] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[207月2026 08:56:39.474] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[207月2026 08:56:39.475] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[207月2026 08:56:39.475] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[207月2026 08:56:39.475] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[207月2026 08:56:39.477] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[207月2026 08:56:39.477] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[207月2026 08:56:39.477] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[207月2026 08:56:39.477] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[207月2026 08:56:39.601] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[207月2026 08:56:39.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[207月2026 08:56:39.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[207月2026 08:56:39.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[207月2026 08:56:39.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[207月2026 08:56:39.619] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[207月2026 08:56:39.663] [Render thread/INFO] [net.neoforged.neoforge.client.entity.animation.json.AnimationLoader/]: Loaded 0 entity animations
+[207月2026 08:56:42.383] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

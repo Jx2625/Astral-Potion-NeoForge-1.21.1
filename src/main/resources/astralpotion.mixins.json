@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.muyu.potion.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "astralpotion.refmap.json",
+  "client": [
+    "client.LevelRendererSetupRenderMixin"
+  ],
+  "mixins": [
+    "BlockStateBaseMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

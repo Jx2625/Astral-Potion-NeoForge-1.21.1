@@ -1,0 +1,8 @@
+[client]
+	#魂体/灵息状态下的视觉模式
+	#VANILLA - 原版黑屏效果（沉浸但影响导航）
+	#SPECTATOR - 旁观者式完全透明（直接跳过视锥剔除，渲染所有已加载区块，性能开销大）
+	#XRAY - 透视模式（仅禁用遮挡剔除，只渲染视距内的区块，性能相较友好）
+	#FADE - 半透明淡化（平衡方案）
+	#Allowed Values: VANILLA, SPECTATOR, XRAY, FADE
+	astralVisionMode = "SPECTATOR"

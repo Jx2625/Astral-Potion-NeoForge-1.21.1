@@ -1,0 +1,32 @@
+{
+  "effect.astralpotion.spectre": "魂体",
+  "effect.astralpotion.spectre.desc": "能够穿透固体方块",
+  "effect.astralpotion.animus": "灵息",
+  "effect.astralpotion.animus.desc": "能够穿透一切方块并获得飞行能力",
+
+  "item.minecraft.potion.effect.spectre": "魂体药水",
+  "item.minecraft.potion.effect.long_spectre": "魂体药水",
+  "item.minecraft.splash_potion.effect.spectre": "喷溅型魂体药水",
+  "item.minecraft.splash_potion.effect.long_spectre": "喷溅型魂体药水",
+  "item.minecraft.lingering_potion.effect.spectre": "滞留型魂体药水",
+  "item.minecraft.lingering_potion.effect.long_spectre": "滞留型魂体药水",
+  "item.minecraft.tipped_arrow.effect.spectre": "魂体之箭",
+  "item.minecraft.tipped_arrow.effect.long_spectre": "魂体之箭",
+
+  "item.minecraft.potion.effect.animus": "灵息药水",
+  "item.minecraft.potion.effect.long_animus": "灵息药水",
+  "item.minecraft.splash_potion.effect.animus": "喷溅型灵息药水",
+  "item.minecraft.splash_potion.effect.long_animus": "喷溅型灵息药水",
+  "item.minecraft.lingering_potion.effect.animus": "滞留型灵息药水",
+  "item.minecraft.lingering_potion.effect.long_animus": "滞留型灵息药水",
+  "item.minecraft.tipped_arrow.effect.animus": "灵息之箭",
+  "item.minecraft.tipped_arrow.effect.long_animus": "灵息之箭",
+
+  "item.astralpotion.soul_shard": "灵魂碎片",
+
+  "astralpotion.configuration.client": "Astral Potion 客户端配置",
+  "astralpotion.configuration.astralVisionMode": "视觉模式",
+  "astralpotion.configuration.astralVisionMode.tooltip": "魂体/灵息状态下的视觉模式\nVANILLA - 原版黑屏效果（沉浸但影响导航）\nSPECTATOR - 旁观者式完全透明（直接跳过视锥剔除，渲染所有已加载区块，性能开销大）\nFADE - 半透明淡化（平衡方案）",
+  "astralpotion.configuration.section.client": "客户端",
+  "astralpotion.configuration.section.client.tooltip": "客户端视觉设置"
+}

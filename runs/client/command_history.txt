@@ -1,0 +1,15 @@
+/astral mode spectator
+/astral mode xray
+/astral mode vanilla
+/astral mode fade
+/astral mode spectator
+/effect give @p astralpotion:spectre 60
+/effect clear
+/effect give @p astralpotion:spectre 60
+/effect clear
+/astral mode spectator
+/effect clear
+/effect clear`
+/effect clear
+/astral mode spectator
+/effect clear

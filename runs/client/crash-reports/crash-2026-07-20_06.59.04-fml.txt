@@ -1,0 +1,120 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2026-07-20 06:59:04
+Description: Mod loading failures have occurred; consult the issue messages for more details
+
+net.neoforged.neoforge.logging.CrashReportExtender$ModLoadingCrashException: Mod loading has failed
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:334) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar%23142!/:0.15.2+mixin.0.8.7] {}
+-- Mod loading issue for: astralpotion --
+Details:
+	Mod file: /E:/mc-bc/AAAA/MDK-1.21.1-NeoGradle-main/build/resources/main/
+	Failure message: Astral Potion (astralpotion) encountered an error while dispatching the net.neoforged.fml.event.lifecycle.FMLClientSetupEvent event
+		org.spongepowered.asm.mixin.transformer.throwables.IllegalClassLoadError: com.muyu.potion.client.FogEventHandler is in a defined mixin package com.muyu.potion.mixin.* owned by astralpotion.mixins.json and cannot be referenced directly
+	Mod version: 1.0.0
+	Mod issues URL: <No issues URL found>
+	Exception message: org.spongepowered.asm.mixin.transformer.throwables.IllegalClassLoadError: com.muyu.potion.client.FogEventHandler is in a defined mixin package com.muyu.potion.mixin.* owned by astralpotion.mixins.json and cannot be referenced directly
+Stacktrace:
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:334) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/org.spongepowered.mixin/org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.15.2+mixin.0.8.7.jar:0.15.2+mixin.0.8.7] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-11.0.5.jar:11.0.5+main.901c6ea8] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:94) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-11.0.5.jar:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:57) ~[modlauncher-11.0.5.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:190) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:311) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:298) ~[securejarhandler-3.0.8.jar:?] {}
+	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:214) ~[securejarhandler-3.0.8.jar:?] {}
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?] {}
+	at TRANSFORMER/astralpotion@1.0.0/com.muyu.potion.client.ClientSetup.clientSetup(ClientSetup.java:23) ~[%23197!/:?] {re:classloading}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.ConsumerEventHandler.invoke(ConsumerEventHandler.java:27) ~[bus-8.0.5.jar%23154!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:360) ~[bus-8.0.5.jar%23154!/:?] {}
+	at MC-BOOTSTRAP/net.neoforged.bus/net.neoforged.bus.EventBus.post(EventBus.java:328) ~[bus-8.0.5.jar%23154!/:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModContainer.acceptEvent(ModContainer.java:158) ~[loader-4.0.42.jar%23150!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$dispatchParallelEvent$4(ModLoader.java:172) ~[loader-4.0.42.jar%23150!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.42/net.neoforged.fml.ModLoader.lambda$dispatchParallelTask$7(ModLoader.java:231) ~[loader-4.0.42.jar%23150!/:4.0] {}
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1310) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1841) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1806) ~[?:?] {}
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 21.0.6, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 498031640 bytes (474 MiB) / 889192448 bytes (848 MiB) up to 4225761280 bytes (4030 MiB)
+	CPUs: 24
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i7-14650HX
+	Identifier: Intel64 Family 6 Model 183 Stepping 1
+	Microarchitecture: Raptor Lake
+	Frequency (GHz): 2.42
+	Number of physical packages: 1
+	Number of physical CPUs: 16
+	Number of logical CPUs: 24
+	Graphics card #0 name: Intel(R) UHD Graphics
+	Graphics card #0 vendor: Intel Corporation
+	Graphics card #0 VRAM (MiB): 128.00
+	Graphics card #0 deviceId: VideoController1
+	Graphics card #0 versionInfo: 31.0.101.5445
+	Graphics card #1 name: NVIDIA GeForce RTX 4060 Laptop GPU
+	Graphics card #1 vendor: NVIDIA
+	Graphics card #1 VRAM (MiB): 8188.00
+	Graphics card #1 deviceId: VideoController2
+	Graphics card #1 versionInfo: 32.0.15.9636
+	Memory slot #0 capacity (MiB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 5.60
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MiB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 5.60
+	Memory slot #1 type: Unknown
+	Virtual memory max (MiB): 35799.53
+	Virtual memory used (MiB): 32011.82
+	Swap memory total (MiB): 19684.08
+	Swap memory used (MiB): 2682.23
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 7417.29, total: 204815.00
+	Space in storage for workdir (MiB): available: 146008.45, total: 1907712.00
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	ModLauncher: 11.0.5+main.901c6ea8
+	ModLauncher launch target: forgeclientdev
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.42.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.42.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.42.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.5.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.5.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		main                                              |Astral Potion                 |astralpotion                  |1.0.0               |Manifest: NOSIGNATURE
+		neoforge-21.1.235.jar                             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		neoforge-21.1.235.jar                             |NeoForge                      |neoforge                      |21.1.235            |Manifest: NOSIGNATURE
+	Crash Report UUID: 4ad42051-395a-4d95-8360-5cb0361819e8
+	FML: 4.0.42
+	NeoForge: 21.1.235

@@ -1,0 +1,3 @@
+[client]
+	#Allowed Values: VANILLA, SPECTATOR, FADE
+	astralVisionMode = "SPECTATOR"
