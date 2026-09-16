@@ -9,7 +9,8 @@
   ],
   "mixins": [
     "BlockStateBaseMixin",
-    "LivingEntityMixin"
+    "LivingEntityMixin",
+    "compat.SableEntityCollisionMixin"
   ],
   "injectors": {
     "defaultRequire": 1

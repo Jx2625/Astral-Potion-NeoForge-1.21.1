@@ -1,13 +1,16 @@
 package com.muyu.potion;
 
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
-import net.neoforged.neoforge.event.tick.EntityTickEvent;  // ← 变更导入
+import net.neoforged.neoforge.event.tick.EntityTickEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 
 /**
- * 星灵药水全局事件处理器
+ * 星灵药水全局事件处理器----现只处理灵息药水
+ *
+ * 【职责变更】noPhysics 的完整生命周期已交给 SableEntityCollisionMixin 管理。
+ * 本类现在只负责灵息效果的飞行能力，不再修改 noPhysics，
+ * 避免两处写入导致的状态频繁切换和屏幕抖动。
  *
  * 【NeoForge 1.21.1 重大变更】LivingEvent.LivingTickEvent 已移除
  *
@@ -28,16 +31,11 @@ public class AstralEventHandler {
         // 只处理玩家实体（替代原 LivingTickEvent 的 LivingEntity 过滤）
         if (!(event.getEntity() instanceof Player player)) return;
 
-        // ← 去掉 .get()，DeferredHolder 即 Holder<MobEffect>
-        boolean hasSpectre = player.hasEffect(SpectreEffect.SPECTRE);
         boolean hasAnimus = player.hasEffect(AnimusEffect.ANIMUS);
 
         if (hasAnimus) {
-            player.noPhysics = true;
+            // 灵息：授予飞行能力（noPhysics 由 SableEntityCollisionMixin 管理）
             player.getAbilities().flying = true;
-            player.onUpdateAbilities();
-        } else if (player.noPhysics) {
-            player.noPhysics = false;
             player.onUpdateAbilities();
         }
     }
