@@ -36,6 +36,11 @@ public abstract class SableEntityCollisionMixin {
             return;
         }
 
+        //旁观者模式由原版维持 noPhysics = true，不覆盖
+        if (player.isSpectator()) {
+            return;
+        }
+
         boolean hasAnimus = player.hasEffect(AnimusEffect.ANIMUS);
 
         // 只有灵息效果才设置 noPhysics 以穿透 Sable 结构
