@@ -13,7 +13,7 @@ public class AnimusEffect extends MobEffect {
             DeferredRegister.create(Registries.MOB_EFFECT, AstralPotionMod.MODID);
 
     public static final DeferredHolder<MobEffect, MobEffect> ANIMUS = EFFECTS.register("animus",
-            () -> new AnimusEffect(MobEffectCategory.NEUTRAL, 0x00FFFF));
+            () -> new AnimusEffect(MobEffectCategory.BENEFICIAL, 0x00FFFF));
 
     public AnimusEffect(MobEffectCategory category, int color) {
         super(category, color);
